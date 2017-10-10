@@ -1,13 +1,17 @@
-git init -> neues Repository erstellen
-git status -> alle neuen oder geänderten Dateien (für einen Commit)
+ï»¿git init -> neues Repository erstellen
+git status -> alle neuen oder geÃ¤nderten Dateien (fÃ¼r einen Commit)
 
 1. working directory erstellen
 2. staging area 
-git add -> neue commits der staging area hinzufügen + -A = alle
+git add -> neue commits der staging area hinzufÃ¼gen + -A = alle
 3. repository
-git commit -> werden Änderungen eingefügt + -m "Beschreibung"
+git commit -> werden Ã„nderungen eingefÃ¼gt + -m "Beschreibung"
 
-git log -> gibt alle Änderungen aus
+git log -> gibt alle Ã„nderungen aus
 
-git checkout b275a71cb6f3891c37f801a5e3cd9bb6b5ef6528 -> früheren Zustand ansehen
-git checkout master -> zurück zum obersten Commit wechseln
+git checkout b275a71cb6f3891c37f801a5e3cd9bb6b5ef6528 -> frÃ¼heren Zustand ansehen
+git checkout master -> zurÃ¼ck zum obersten Commit wechseln
+
+
+git stash -> merkt VerÃ¤nderungen, um Branch zu wechseln
+git stash apply -> fÃ¼gt VerÃ¤nderungen nach Branch-Wechsel ein
