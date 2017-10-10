@@ -8,3 +8,6 @@ git add -> neue commits der staging area hinzufügen + -A = alle
 git commit -> werden Änderungen eingefügt + -m "Beschreibung"
 
 git log -> gibt alle Änderungen aus
+
+git checkout b275a71cb6f3891c37f801a5e3cd9bb6b5ef6528 -> früheren Zustand ansehen
+git checkout master -> zurück zum obersten Commit wechseln
