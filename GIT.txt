@@ -1,0 +1,10 @@
+git init -> neues Repository erstellen
+git status -> alle neuen oder geänderten Dateien (für einen Commit)
+
+1. working directory erstellen
+2. staging area 
+git add -> neue commits der staging area hinzufügen + -A = alle
+3. repository
+git commit -> werden Änderungen eingefügt + -m "Beschreibung"
+
+git log -> gibt alle Änderungen aus
